@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Essence';
+  src: url('fonts/ar-essence.ttf') format('ttf');
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	background: url(../images/bg-img.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+/*---------------------------------------------*/
+/*------------------ HEADER -------------------*/
+/*---------------------------------------------*/
+
+#header {
+	height: 90px;
+}
+
+.page-wrapper {
+	padding-top: 15px;
+}
+
+.container {
+	padding-top: 15px;
+}
+
+.header-wrapper {
+    padding-top: 10px;
+}
+
+.section-1 {
+    float: left;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.logo span {
+	color: #fff;
+	font-size: 25px;
+    margin-left: -20px;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.section-2 {
+    float: right;
+    padding-top: 10px;
+}
+
+.links ul {
+	list-style: none;
+	padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+	display: inline-block;
+}
+
+.links ul li a {
+	margin-right: 5px;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px #000;
+}
+
+a.menu-btn {
+	background-color: rgba(222, 222, 222, 0.25);
+	padding: 12px 12px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	transition: all 0.3s ease 0s;
+}
+
+a.menu-btn:hover, a.link_button:active {
+    background-color: rgba(222, 222, 222, 0.85);
+	color: #fff;
+	font-weight: 700;
+	/*letter-spacing: 1px;*/
+}
+
+a.menu-btn:visited {
+	outline: none; 
+	color: #fff; 
+	text-decoration: none; 
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 800px) and (max-width: 991px) {
+    .header {
+	   	height: 95px;
+	}
+    
+    .title-logo {
+     text-align: center; 
+    }
+    
+    
+	
+
+}

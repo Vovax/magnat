@@ -1,0 +1,93 @@
+@media screen and (max-width:479px) {
+	
+	/*------------------ GENERAL -------------------*/
+	.logo {
+    	text-align: center;
+    }
+	
+	.logo img {
+        width: 150px;
+    }
+    
+    .logo span {
+        font-size: 20px;
+    }
+	
+	a.menu-btn {
+        padding: 8px 6px;
+	}
+	
+	.links ul li a {
+        margin-right: 0px;
+        font-size: 8px;
+    }
+    
+    .title h4 {
+        font-size: 12px;
+    }
+    
+    .author {
+        font-size: 10px;
+        padding-bottom: 8px;
+    }
+    
+    .fa-soc {
+        font-size: 18px;
+    }
+	
+	
+	/*------------------ INDEX -------------------*/
+	section.img-slider {
+    	/*margin: 10px auto;*/
+    	margin: 0;
+    	padding: 0px;
+    	
+	}
+	
+	section.img-slider:hover > img{
+    	width: 230px;
+    }
+    
+    section.img-slider > img{
+        width: 230px;
+        top: 6px;
+    }
+    
+    .carousel-inner {
+        border-radius: 15px;
+    }
+	
+	/*------------------ SERVICE -------------------*/
+	.title {
+        padding-top: 30px;
+    }
+    
+	article {
+        font-size: 10px;
+        padding-top: 0;
+    }
+    
+    .article-text {
+        padding-top: 20px;
+    }
+    
+    .article-text p {
+         padding-bottom: 0; 
+    }
+    
+    .img-right {
+        padding-top: 20px;
+        width: 240px;
+        /*margin-left: 25px;*/
+        /*margin-right: 25px;*/
+    }
+
+    .img-right img {
+        width: 120px;
+        float: right;
+        border-radius: 3px;
+        box-shadow: 0 0 15px rgba(1,1,1,.5);
+        opacity: 0.85;
+    }
+	
+}

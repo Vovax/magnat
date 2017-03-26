@@ -4,18 +4,6 @@
         margin-right: 0px;
         font-size: 12px;
     }
-
-    section.img-slider {
-    	margin: 20px auto;
-	}
-	
-	section.img-slider:hover > img{
-    	width: 280px;
-    }
-    
-    section.img-slider > img{
-        width: 280px;
-    }
     
     .carousel-inner {
         border-radius: 15px;
@@ -25,20 +13,17 @@
     	border-radius: 15px;
     }
     
-    .img-right {
-        padding-top: 20px;
-        width: 240px;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
+    /*.img-right {*/
+    /*    width: 240px;*/
+    /*}*/
 
-    .img-right img {
-        width: 120px;
-        float: right;
-        border-radius: 3px;
-        box-shadow: 0 0 15px rgba(1,1,1,.5);
-        opacity: 0.85;
-    }
+    /*.img-right img {*/
+    /*    width: 120px;*/
+        /*float: right;*/
+    /*    border-radius: 3px;*/
+    /*    box-shadow: 0 0 15px rgba(1,1,1,.5);*/
+    /*    opacity: 0.85;*/
+    /*}*/
 
 }
 

@@ -1,6 +1,8 @@
 @media screen and (max-width:479px) {
+/*@media only screen and (max-width: 410px) {}*/
 	
 	/*------------------ GENERAL -------------------*/
+	
 	.logo {
     	text-align: center;
     }
@@ -22,8 +24,12 @@
         font-size: 8px;
     }
     
-    .title h4 {
-        font-size: 12px;
+    .title h3 {
+        font-size: 16px;
+    }
+    
+    .icons i {
+        font-size: 10px;
     }
     
     .author {
@@ -37,25 +43,13 @@
 	
 	
 	/*------------------ INDEX -------------------*/
-	section.img-slider {
-    	/*margin: 10px auto;*/
-    	margin: 0;
-    	padding: 0px;
-    	
-	}
-	
-	section.img-slider:hover > img{
-    	width: 230px;
-    }
-    
-    section.img-slider > img{
-        width: 230px;
-        top: 6px;
-    }
-    
-    .carousel-inner {
-        border-radius: 15px;
-    }
+	.slider-wrapper {
+ 		height: 205px;
+ 	}
+ 	.slider-wrapper img {
+ 		height: 100%;
+ 		width: 100%;
+ 	}
 	
 	/*------------------ SERVICE -------------------*/
 	.title {
@@ -63,7 +57,7 @@
     }
     
 	article {
-        font-size: 10px;
+        font-size: 12px;
         padding-top: 0;
     }
     
@@ -76,18 +70,30 @@
     }
     
     .img-right {
-        padding-top: 20px;
-        width: 240px;
-        /*margin-left: 25px;*/
-        /*margin-right: 25px;*/
+        padding-top: 5px;
+        /*width: 240px;*/
+        position: relative;
     }
 
     .img-right img {
-        width: 120px;
+        width: 60px;
         float: right;
         border-radius: 3px;
         box-shadow: 0 0 15px rgba(1,1,1,.5);
         opacity: 0.85;
+    }
+    
+    .img-right > div:hover > img {
+        transform: scale(1.7,1.7);
+    }
+    
+    /*------------------ SERVICE -------------------*/
+    .gallery-carousel {
+        display: none;
+    }
+    
+    article ul li:before {
+        top: 10px;
     }
 	
 }
